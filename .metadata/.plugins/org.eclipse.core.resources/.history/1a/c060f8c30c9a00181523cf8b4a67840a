@@ -1,0 +1,10 @@
+import java.util.Date;
+
+public class Order {
+	private int id;
+	private double totalPrice;
+	private double discountPrice;
+	private double netPrice;
+	private OrderItem[] items;
+	private Date orderDate;
+}

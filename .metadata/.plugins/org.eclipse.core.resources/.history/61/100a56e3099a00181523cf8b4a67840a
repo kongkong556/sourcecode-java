@@ -1,0 +1,30 @@
+
+public class Book {
+	
+	//Properties
+		private String name;
+		private double price;
+		
+		//Constructor
+	public Book() {
+		// TODO Auto-generated constructor stub
+		this.name = name;
+		this.price = price;
+		
+	}
+	
+	//Methods
+	public static Book createNewBookWithNameAndPrice(String name, double price) {
+		Book book = new Book();
+		book.name = name;
+		book.price = price;
+		return book;
+	}
+}
+
+class BookStore {
+	public static void main(String[] args) {
+		Book.createNewBookWithNameAndPrice("First book",8);
+		
+	}
+}

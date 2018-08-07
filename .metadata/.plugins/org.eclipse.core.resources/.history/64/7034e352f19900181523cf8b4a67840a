@@ -1,0 +1,20 @@
+
+class Employee2 {
+
+	private int id;
+	private String namte; 
+	
+	public void process(int id) {
+		System.out.println(id);
+		System.out.println(this.id);
+
+	}
+	
+}
+
+public class Employee {
+	public static void main(String[] args) {
+		Employee2 e = new Employee2();
+		e.process(5);
+}
+}

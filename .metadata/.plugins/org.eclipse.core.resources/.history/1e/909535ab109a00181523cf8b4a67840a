@@ -1,0 +1,7 @@
+
+public class OrderItem {
+	//Properties
+	private int id;
+	private Book book;
+	private int quantity;
+}

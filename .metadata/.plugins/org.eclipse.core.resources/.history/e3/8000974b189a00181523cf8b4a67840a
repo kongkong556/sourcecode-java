@@ -1,0 +1,15 @@
+
+public class OrderItem {
+	
+	//Properties
+	private int id;
+	 Book book;
+	private int quantity;
+	
+	public OrderItem(Book book1, int i) {
+		// TODO Auto-generated constructor stub
+		this.book = book1;
+		this.quantity = i;
+		
+	}
+}

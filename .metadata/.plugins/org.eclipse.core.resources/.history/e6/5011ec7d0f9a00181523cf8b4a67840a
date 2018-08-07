@@ -1,0 +1,28 @@
+import java.util.Date;
+
+public class Order {
+	private int id;
+	double totalPrice;
+	double discountPrice;
+	double netPrice;
+	private OrderItem[] items;
+	private Date orderDate;
+	public void setOrderItem(int book1, int book2) {
+		// TODO Auto-generated method stub
+		this.totalPrice += book1;
+		this.netPrice += book2;
+	}
+	
+	
+}
+
+class Main {
+	public static void main(String[] args) {
+		Order order = new Order();
+		order.setOrderItem(1,8);
+		order.setOrderItem(2, 8);
+		System.out.println(order.totalPrice);
+		System.out.println(order.netPrice);
+		System.out.println(order);
+	}
+}

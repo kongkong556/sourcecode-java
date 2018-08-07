@@ -1,0 +1,10 @@
+
+public class OrderItem {
+	public OrderItem(Book book1, int i) {
+		// TODO Auto-generated constructor stub
+	}
+	//Properties
+	private int id;
+	private Book book;
+	private int quantity;
+}

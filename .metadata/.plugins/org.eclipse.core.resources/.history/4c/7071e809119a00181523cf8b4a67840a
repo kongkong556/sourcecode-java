@@ -1,0 +1,35 @@
+import java.util.Date;
+
+public class Order {
+	private int id;
+	double totalPrice;
+	double discountPrice;
+	double netPrice;
+	private OrderItem[] items;
+	private Date orderDate;
+	
+	public void addItem(OrderItem orderItem1) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	
+}
+
+class Main {
+	public static void main(String[] args) {
+		
+		Book book1 = new Book("First book",8);
+		Book book2 = new Book("Second book",8);
+		
+		OrderItem orderItem1 = new OrderItem(book1,1);
+		OrderItem orderItem2 = new OrderItem(book2,1);
+		
+		Order order = new Order();
+		order.addItem(orderItem1);
+		order.addItem(orderItem2);
+		System.out.println(order.totalPrice);
+		System.out.println(order.netPrice);
+		System.out.println(order.discountPrice);
+	}
+}
