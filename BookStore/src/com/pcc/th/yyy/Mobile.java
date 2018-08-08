@@ -1,29 +1,50 @@
 package com.pcc.th.yyy;
 
-public class Mobile {
-	void call() {
-		System.out.println("Call");
-	}
-	void playMusic() {
-	}
+public interface Mobile {
+	void call();
+	void playMusic();
 }
 
-class IPhone extends Mobile {
+interface Mobile2018{
+	void takePhoto();
+}
+
+class IPhone implements Mobile,Mobile2018{
 
 	@Override
-	void call() {
+	public void takePhoto() {
 		// TODO Auto-generated method stub
-		super.call();
+		
+	}
+	
+	@Override
+	public void call() {
+		// TODO Auto-generated method stub
+		
 	}
 
+	
 	@Override
-	void playMusic() {
+	public void playMusic() {
 		// TODO Auto-generated method stub
-		super.playMusic();
+		
 	}
 	
 }
 
-class Samsung extends Mobile{
+
+class Samsung implements Mobile{
+
+	@Override
+	public void call() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void playMusic() {
+		// TODO Auto-generated method stub
+		
+	}
 	
 }
