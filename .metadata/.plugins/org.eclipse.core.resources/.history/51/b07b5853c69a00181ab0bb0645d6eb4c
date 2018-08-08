@@ -1,0 +1,23 @@
+import java.util.ArrayList;
+import java.util.List;
+
+public class DemoCF {
+
+	public static void main(String[] args) {
+		// array :: fix length
+		int[] numbers = {1, 2, 3};
+		System.out.println(numbers.length);
+		for (int i : numbers) {
+			System.out.print(i + ", ");
+		
+		}
+		System.out.println();
+		// List :: dynamic array
+		List<Integer> numberList = new ArrayList();
+		numberList.add(1);
+		numberList.add(2);
+		numberList.add(3);
+		System.out.println("Size : " + numberList);
+	}
+
+}

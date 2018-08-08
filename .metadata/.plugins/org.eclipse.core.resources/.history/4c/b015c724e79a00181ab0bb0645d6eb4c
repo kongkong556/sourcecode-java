@@ -1,0 +1,11 @@
+
+public class DemoError {
+	public static void main(String[] args) throws ClassNotFoundException {
+		DemoError e = new DemoError();
+		e.process1();
+	}
+	void process1() throws ClassNotFoundException {
+			Class.forName("xxx.xxx");
+		
+	}
+}

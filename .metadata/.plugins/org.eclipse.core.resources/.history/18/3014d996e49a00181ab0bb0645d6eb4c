@@ -1,0 +1,11 @@
+
+public class DemoError {
+	void process1() {
+		try {
+			Class.forName("xxx.xxx");
+		} catch (ClassNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+}

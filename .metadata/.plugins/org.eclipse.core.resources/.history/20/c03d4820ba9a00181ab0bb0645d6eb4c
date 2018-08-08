@@ -1,0 +1,14 @@
+package com.pcc.th.yyy;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class RandomNumberTest {
+
+	@Test
+	void test() {
+		fail("Not yet implemented");
+	}
+
+}

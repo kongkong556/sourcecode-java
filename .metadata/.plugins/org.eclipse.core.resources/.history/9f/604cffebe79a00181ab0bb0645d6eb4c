@@ -1,0 +1,10 @@
+
+public class DemoError {
+	public static void main(String[] args) throws ClassNotFoundException {
+		DemoError e = new DemoError();
+		e.process1(0);
+	}
+	double process1(int input){
+		return 10/input;
+	}
+}

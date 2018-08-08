@@ -1,0 +1,6 @@
+
+public class DemoError {
+	void process1() {
+		Class.forName("xxx.xxx");
+	}
+}

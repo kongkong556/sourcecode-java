@@ -1,0 +1,18 @@
+package com.pcc.th.yyy;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import java.util.Random;
+
+import org.junit.jupiter.api.Test;
+
+class RandomNumberTest {
+
+	@Test
+	void test() {
+		Random random = new Random();
+		RandomNumber p = new RandomNumber();
+		assertEquals(5, p.generate(random));
+	}
+
+}

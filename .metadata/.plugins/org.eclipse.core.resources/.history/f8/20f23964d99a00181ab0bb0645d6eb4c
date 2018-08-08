@@ -1,0 +1,25 @@
+import java.util.ArrayList;
+import java.util.List;
+import java.util.function.BooleanSupplier;
+
+public class Isogram {
+
+	public boolean check(String input) {
+		// TODO Auto-generated method stub
+		List<String> s = new ArrayList<>();
+		List<String> s2 = new ArrayList<>();
+		s.add(input);
+		int size = s.size();
+		int length = s.get(0).length();
+		for (int i = 0; i < length ; i++) {
+			System.out.println(s.get(0).substring(i, i+1));
+//			test[i] = s.get(0).substring(i, i+1);
+//			System.out.println(test[i]);
+			s2.add(s.get(0).substring(i, i+1));
+			
+		}
+		System.out.println(s2);
+		return false;
+	}
+
+}

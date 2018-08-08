@@ -1,0 +1,23 @@
+package com.pcc.th.yyy;
+
+public interface Mobile {
+	void call();
+	void playMusic();
+}
+
+
+class Samsung implements Mobile{
+
+	@Override
+	public void call() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void playMusic() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+}
